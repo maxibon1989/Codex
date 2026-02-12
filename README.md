@@ -12,7 +12,7 @@ npm run dev
 Open:
 - `/quote` for customer proposal view
 - `/quote/line-items` for exact line item table
-- `/quote/investment-appendix` for investment appendix with ROI scenarios and forecast-vs-realized comparison
+- `/quote/investment-appendix` for optional neutral investment context
 
 ## Build
 
