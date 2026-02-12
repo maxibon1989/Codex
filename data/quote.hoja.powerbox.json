@@ -1,0 +1,153 @@
+{
+  "quote": {
+    "id": "919",
+    "date": "2026-02-12",
+    "title": "Update alternative. Etec. Hoja project. 4MW/9MWh",
+    "validity_days": 30,
+    "currency": "EUR"
+  },
+  "parties": {
+    "seller": {
+      "name": "Capture Energy AB",
+      "address": "Lilla Bommen 3, 411 04 Göteborg, Sweden"
+    },
+    "customer": {
+      "name": "Etec Automation Oy",
+      "address": "Neulekatu 10, 55120 Imatra, Finland"
+    },
+    "contacts": [
+      {
+        "name": "Klas Ljungberg",
+        "role": "Country Manager Finland and Baltics",
+        "email": "klas.ljungberg@captureenergy.eu",
+        "phone": "+358 40 051 5041"
+      },
+      {
+        "name": "Aatu Tella",
+        "role": "Electrical Engineer",
+        "email": "aatu.tella@etec.fi",
+        "phone": "+358 44 901 2772"
+      }
+    ]
+  },
+  "scope_notes": {
+    "customer_requests": [
+      "Use 3 × 1600 kVA transformers due to Caruna limit.",
+      "Remove all civil works from the quote.",
+      "Remove fencing from the quote.",
+      "Confirm container placement compliance and spacing requirements."
+    ],
+    "compliance_statement": "Proposed placement complies with relevant local and national regulations regarding fire safety and containment of wastewater and potential spill runoff."
+  },
+  "line_items": [
+    {
+      "section": "BESS products",
+      "name": "BESS PowerBox LC 1.6 MW / 3 MWh, 690 VAC",
+      "unit_price": 380000,
+      "qty": 3,
+      "line_total": 1140000,
+      "specs": [
+        "Weight 31t",
+        "20 ft high cube container",
+        "Lithium Iron Phosphate (LFP)",
+        "Operating Ambient Temperature -30 to +50 °C",
+        "Corrosion Class C5",
+        "Liquid cooling"
+      ]
+    },
+    {
+      "section": "Transformers",
+      "name": "Step-down transformer MW to 690V",
+      "unit_price": 110000,
+      "qty": 2,
+      "line_total": 220000
+    },
+    {
+      "section": "Transformers",
+      "name": "Local power transformer 400V AUX",
+      "unit_price": 45000,
+      "qty": 1,
+      "line_total": 45000
+    },
+    {
+      "section": "Transformers",
+      "name": "Power container with transformer, LV switchgear, MV switchgear and metering",
+      "unit_price": 199000,
+      "qty": 1,
+      "line_total": 199000
+    },
+    {
+      "section": "Other products and services",
+      "name": "Capture Controller",
+      "unit_price": 10900,
+      "qty": 1,
+      "line_total": 10900,
+      "specs": [
+        "EMS Energy Management System",
+        "Aggregator HW",
+        "Firewall",
+        "Secure communication"
+      ]
+    }
+  ],
+  "totals": {
+    "capex": {
+      "bess_products": 1140000,
+      "transformers": 464000,
+      "other_products_services": 10900,
+      "capex_sum": 1614900
+    },
+    "opex": {
+      "service_agreement_yearly": 8300,
+      "opex_sum": 8300
+    }
+  },
+  "service_agreement": {
+    "mandatory": true,
+    "yearly_price": 8300,
+    "includes": [
+      "2 site visits per year",
+      "Monitoring and logging"
+    ],
+    "warranty_years_included": 5,
+    "warranty_upgrade_available_years": 10
+  },
+  "payment_terms": {
+    "powerbox": [
+      {
+        "percent": 30,
+        "milestone": "Pre-payment when signing agreement"
+      },
+      {
+        "percent": 50,
+        "milestone": "Factory Acceptance Test (FAT) approval at delivered port"
+      },
+      {
+        "percent": 20,
+        "milestone": "Site Acceptance Test (SAT) approved"
+      }
+    ]
+  },
+  "delivery_plan": [
+    {
+      "phase": "Order date (agreement signed)",
+      "weeks": "1-2"
+    },
+    {
+      "phase": "Factory Acceptance Test (FAT)",
+      "weeks": "20"
+    },
+    {
+      "phase": "Deliver to customer site",
+      "weeks": "4"
+    },
+    {
+      "phase": "Site Acceptance Test (SAT) at customer site",
+      "weeks": "4"
+    }
+  ],
+  "installation_support": {
+    "remote_support_rate_per_day": 800,
+    "note": "Travel, accommodation, and related expenses invoiced separately."
+  }
+}
